@@ -1,0 +1,12 @@
+2022-07-05 12:02:11 error: uncaughtException: EIO: i/o error, write
+Error: EIO: i/o error, write
+    at writeSync (node:fs:884:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:25:3)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (/home/massimiliano/massi/40k/server_ts_app/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/home/massimiliano/massi/40k/server_ts_app/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/home/massimiliano/massi/40k/server_ts_app/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/home/massimiliano/massi/40k/server_ts_app/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/home/massimiliano/massi/40k/server_ts_app/node_modules/readable-stream/lib/_stream_writable.js:307:11)

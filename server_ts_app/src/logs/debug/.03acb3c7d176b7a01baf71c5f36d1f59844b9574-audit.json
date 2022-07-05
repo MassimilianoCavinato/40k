@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/massimiliano/massi/40k/server_ts_app/src/logs/debug/.03acb3c7d176b7a01baf71c5f36d1f59844b9574-audit.json",
+    "files": [
+        {
+            "date": 1657018832947,
+            "name": "/home/massimiliano/massi/40k/server_ts_app/src/logs/debug/2022-07-05.log",
+            "hash": "5eae41a65e9ca72cb274666fa8768054ed85b557117879a5b01127fc1e9aa341"
+        }
+    ],
+    "hashType": "sha256"
+}
